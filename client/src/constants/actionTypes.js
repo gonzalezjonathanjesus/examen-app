@@ -1,0 +1,3 @@
+export default {
+    PRODUCTITEM_RECEIVED: 'PRODUCTITEM_RECEIVED',
+}
