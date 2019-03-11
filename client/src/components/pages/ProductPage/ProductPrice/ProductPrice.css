@@ -1,0 +1,16 @@
+.ProductPrice {
+    width: 45%;
+    padding: 7px 15px;
+    float: left;
+}
+
+.ProductPrice > span:first-child {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ProductPrice > span:last-child {
+    text-decoration: line-through;
+    color: rgb(143, 143, 143);
+    font-size: 14px;
+}

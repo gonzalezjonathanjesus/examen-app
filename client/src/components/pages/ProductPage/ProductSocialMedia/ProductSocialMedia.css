@@ -1,0 +1,9 @@
+.ProductSocialMedia {
+    margin: 20px 0px 0px;
+    text-align: center;
+}
+
+.ProductSocialMedia > div {
+    display: inline-block;
+    margin: 0px 8px;
+}

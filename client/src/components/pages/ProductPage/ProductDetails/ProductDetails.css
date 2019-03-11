@@ -1,0 +1,24 @@
+.ProductDescription ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.ProductDescription > ul > li {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.ProductDescription > ul > li > span:last-child {
+    float: right;
+}
+
+.ProductDescription > ul > li:first-child,
+.ProductDescription > ul > li:last-child {
+    background: rgb(238, 238, 238);
+}
+
+.ProductDescription > ul > li:nth-last-child(2) {
+    background: rgb(255, 255, 255);
+}
+

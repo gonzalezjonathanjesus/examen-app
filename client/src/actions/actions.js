@@ -14,4 +14,10 @@ export function fetchProductItem(id) {
        .then( (data) => dispatch(productItemReceived(data.data)) )
        .catch( (e) => console.log(e) );
     }
+    /*return async dispatch => {
+        return await fetch(`/product/${id}`)
+        .then( (response) => response.json() )
+        .then( (data) => dispatch(productItemReceived(data.data)) )
+        .catch( (e) => console.log(e) );
+    }*/
 }

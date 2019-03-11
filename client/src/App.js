@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Route, BrowserRouter } from 'react-router-dom';
-import Home from './components/layouts/Home';
-import Layout from './components/layouts/Layout';
 import { Provider } from 'react-redux';
 import store from './stores/store.js';
-import ProductPage from './components/ProductPage';
+import Layout from './components/Layout';
+import Home from './components/pages/Home';
+import ProductPage from './components/pages/ProductPage';
 
 class App extends Component {
     render() {

@@ -1,0 +1,32 @@
+.ProductInfo {
+    width: 80%;
+    display: inline-block;
+}
+
+.text {
+    font-size: 14px;
+    margin: 0 0 5px;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    color: #999;
+}
+
+.brand {
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.productName {
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.productSeller {
+    margin: 8px 0 0;
+    font-size: 12px;
+}
+
+.sellerName {
+    color: #3cbdaf;
+}

@@ -1,0 +1,27 @@
+.ProductPage {
+    padding: 1% 25px 20vw 25px;
+}
+
+.ProductBuy {
+    background: #f2f2f2;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    height: 56px;
+    -webkit-box-shadow: rgba(0,0,0,.31) 0 -5px 10px -5px;
+    box-shadow: 0 -5px 10px -5px rgba(0,0,0,.31);
+}
+
+.buyButton {
+    width: 45%;
+    background: #3cbdaf;
+    padding: 10px 0;
+    border: 0;
+    float: right;
+    color: #fafafa;
+    font-size: 18px;
+    height: 56px;
+    text-transform: uppercase;
+}

@@ -6,6 +6,7 @@ class Home extends Component {
             <div>
                 <div> Welcome to dafiti-app</div>
                 <div>
+                    asdasda
                 </div>
             </div>
         );
